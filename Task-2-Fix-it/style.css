@@ -1,0 +1,56 @@
+/*general settings*/
+body {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #000;
+}
+
+/*c- components*/
+.c-text-intro {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.c-paragraph-1 {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.c-accordion {
+    margin-bottom: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #0000FF;
+}
+
+.prompt {
+    opacity: 0;
+    margin-bottom: 30px;
+}
+
+.c-list-item-1,
+.c-list-item-2,
+.c-list-item-3,
+.c-list-item-4,
+.c-list-item-5 {
+    text-indent: 10px;
+}
+
+.c-list-item-decoration {
+    font-weight: bold;
+    color: #0000FF;
+    display: inline;
+}
+
+/*h - helper*/
+.h-note {
+    color: #00FFFF;
+    background: #0000FF;
+    padding: 10px;
+}
