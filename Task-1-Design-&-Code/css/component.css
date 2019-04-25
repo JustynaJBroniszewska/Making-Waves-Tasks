@@ -50,11 +50,6 @@ a[class*="h-menu-link"] {
     justify-content: flex-end;
 }
 
-.c-navbar .h-menu-btn {
-    font-size: 40px;
-    color: #efef;
-}
-
 /*l-section-second*/
 .c-product-benefits-title,
 .c-smoothie-delight-newsletter-section {

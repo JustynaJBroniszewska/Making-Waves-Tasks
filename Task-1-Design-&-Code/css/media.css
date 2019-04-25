@@ -1,0 +1,103 @@
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .l-header {
+        width: 100vw;
+        display: flex;
+    }
+
+    .navbar-collapse {
+        padding: 0;
+    }
+
+    .c-navbar .h-menu-btn {
+        font-size: 4rem;
+        color: #efefef;
+    }
+
+    .c-navbar {
+        width: 100vw;
+        justify-content: space-between;
+    }
+
+    .navbar-brand {
+        width: auto;
+        height: auto;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+        padding-bottom: 5px;
+        background-color: #000;
+    }
+
+    .introduction {
+        width: 90vw;
+        top: 71%;
+        font-size: 1rem;
+    }
+
+    .c-product-benefits-title,
+    .c-smoothie-delight-newsletter-section {
+        padding: 0 15px;
+    }
+
+    .l-section-second {
+        margin-top: 0;
+    }
+
+    .bg-video-content {
+        width: 100vw;
+    }
+
+    .swiper-slide {
+        padding: 20px 60px;
+    }
+
+    .swiper-slide .title {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .subtitle, .swiper-slide .text {
+        display: none;
+    }
+
+    .card {
+        height: 240px;
+    }
+
+    .card__side--front {
+        text-align: center;
+        background-color: #000;
+        color: #efefef;
+        opacity: .9;
+    }
+
+    .newsletter {
+        text-align: center;
+    }
+
+    .email-box {
+        margin: 5px 0;
+    }
+
+    .email-box:hover > .h-mail-box, .h-mail-box:focus {
+        width: 145px;
+    }
+
+    .footer-block-about-us {
+        padding: 15px 10px;
+    }
+
+    .address-container {
+        display: block;
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width: 768px) {
+
+
+}

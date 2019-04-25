@@ -199,6 +199,8 @@ body::-webkit-scrollbar-thumb {
 .card__side--back {
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card__side--back-1 {
