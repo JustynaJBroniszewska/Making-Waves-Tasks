@@ -30,15 +30,11 @@ body {
 }
 
 .prompt {
-    opacity: 0;
+    visibility: hidden;
     margin-bottom: 30px;
 }
 
-.c-list-item-1,
-.c-list-item-2,
-.c-list-item-3,
-.c-list-item-4,
-.c-list-item-5 {
+.c-list-item {
     text-indent: 10px;
 }
 
