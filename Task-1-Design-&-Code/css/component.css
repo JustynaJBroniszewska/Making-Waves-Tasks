@@ -13,7 +13,8 @@ a[class*="h-menu-link"] {
 .card-1 .card-title,
 .card-5 .card-title,
 .info-link-1:hover,
-.eye-catches-4 {
+.eye-catches-4,
+.c-heading-about-us {
     color: #f56c71;
 }
 
@@ -23,7 +24,8 @@ a[class*="h-menu-link"] {
 .card-2 .card-title,
 .card-6 .card-title,
 .info-link-2:hover,
-.eye-catches-2 {
+.eye-catches-2,
+.c-contact-us {
     color: #ffb516;
 }
 
@@ -33,7 +35,8 @@ a[class*="h-menu-link"] {
 .card-3 .card-title,
 .card-7 .card-title,
 .info-link-3:hover,
-.eye-catches-3 {
+.eye-catches-3,
+.c-heading-info-footer {
     color: #34be5e;
 }
 
@@ -146,6 +149,10 @@ a[class*="h-menu-link"] {
     margin-bottom: 50px;
 }
 
+span[class*="eye-catches"] {
+    font-weight: 700;
+}
+
 .swiper-slide {
     font-size: 18px;
     color: #fff;
@@ -174,12 +181,10 @@ a[class*="h-menu-link"] {
     text-transform: uppercase;
 }
 
-.eye-catches-2 {
-    font-weight: 700;
-}
-
 .swiper-pagination {
-    position: relative;
+    bottom: -15px;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .swiper-pagination-bullet {
