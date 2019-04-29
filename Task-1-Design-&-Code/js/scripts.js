@@ -6,8 +6,18 @@ $(document).ready(function () {
         $('.l-header').toggleClass('hide', $(window).scrollTop() > number);
         number = $(window).scrollTop();
     })
-});
 
+    const navbarOffsetThreshold = 50;
+
+    function checkOffset() {
+        $(".c-navbar").toggleClass("is-navbar-threshold", $(".navbar").offset().top > navbarOffsetThreshold);
+    }
+
+    checkOffset();
+    $(window).scroll(function () {
+        checkOffset();
+    });
+});
 
 // Swiper slider
 let swiper = new Swiper('.swiper-container', {
@@ -19,12 +29,6 @@ let swiper = new Swiper('.swiper-container', {
     },
     autoplay: {
         delay: 10000,
-    },
-    navigation: {
-        nextEl: '.linearicons-arrow-right\n' +
-            '\n',
-        prevEl: '.linearicons-arrow-left\n' +
-            '\n',
     },
 });
 

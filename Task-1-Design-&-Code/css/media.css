@@ -1,5 +1,5 @@
 @media (min-width: 320px) and (max-width: 768px) {
-
+    /*l-section-first*/
     .l-header {
         width: 100vw;
         display: flex;
@@ -24,6 +24,25 @@
         height: auto;
     }
 
+    .is-navbar-threshold {
+        height: 15vh;
+    }
+
+    .is-navbar-threshold .navbar-brand {
+        position: absolute;
+    }
+
+    .is-navbar-threshold .h-menu-btn {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        font-size: 2.3rem;
+    }
+
+    .navbar-nav {
+        margin-top: 30px;
+    }
+
     .navbar-nav .nav-link {
         font-size: 1rem;
         padding-bottom: 5px;
@@ -36,32 +55,37 @@
         font-size: 1rem;
     }
 
+    /*l-section-second*/
+    .l-section-second,
+    .l-section-third {
+        margin-top: 15px;
+    }
+
     .c-product-benefits-title,
+    .c-smoothie-delight-series-title,
     .c-smoothie-delight-newsletter-section {
         padding: 0 15px;
+        margin: 0;
     }
 
     .l-section-second {
         margin-top: 0;
     }
 
-    .bg-video-content {
-        width: 100vw;
-    }
-
     .swiper-slide {
-        padding: 20px 60px;
+        padding: 0;
     }
 
     .swiper-slide .title {
         font-size: 1.3rem;
         font-weight: 700;
+        border-bottom: none;
     }
 
     .subtitle, .swiper-slide .text {
         display: none;
     }
-
+    /*l-section-third*/
     .card {
         height: 240px;
     }
@@ -72,7 +96,7 @@
         color: #efefef;
         opacity: .9;
     }
-
+    /*l-section-fourth*/
     .newsletter {
         text-align: center;
     }
@@ -84,7 +108,7 @@
     .email-box:hover > .h-mail-box, .h-mail-box:focus {
         width: 145px;
     }
-
+    /*l-section-fifth*/
     .footer-block-about-us {
         padding: 15px 10px;
     }
