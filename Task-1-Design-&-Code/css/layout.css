@@ -62,7 +62,6 @@ body::-webkit-scrollbar-thumb {
 
 .bg-video {
     position: relative;
-    opacity: .4;
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center;
